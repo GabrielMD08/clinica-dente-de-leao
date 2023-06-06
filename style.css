@@ -200,6 +200,7 @@ body {
     /* background-image: url(assets/banner.png); */
     background-image: url(assets/dentista_odontologia_hospitalar\ 1.png);
     background-size: 105%;
+    background-repeat: no-repeat;
     height: 500px;
     justify-content: space-between;
 }
@@ -876,56 +877,88 @@ body {
 .content--information {
     /* border: 5px double red; */
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-}
-
-.content--information-row-patient {
+  }
+  
+  .content--information-row-patient {
     display: flex;
     /* border: 2px solid red; */
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     height: 350px;
-}
-
-.content--information-col-patient-one {
-    background-image: url(assets/content--information.png);
+    
+  }
+  
+  .content--information-col-patient-one {
+    background-image: url(assets/Group\ 111.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /* padding: 50px 0px; */
     width: 100%;
     max-width: 720px;
-}
-
-.content--information-col-patient-two {
-    background-image: url(assets/content--information-two.png);
+  
+  }
+  
+  .content--information-col-patient-two {
+    background-color: #163D7E;
     width: 100%;
     max-width: 720px;
-}
-
-.content--information-row-doctor {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  hr {
+    width: 50%;
+  }
+  
+  .patient-information--content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    color: #ffff;
+  }
+  
+  .content--information-row-doctor {
     display: flex;
     /* border: 2px solid red; */
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     height: 350px;
-}
-
-.content--information-col-doctor-one {
-    background-image: url(assets/content--information-two.png);
+  }
+  
+  .content--information-col-doctor-one {
+    background-color:#163D7E;
     width: 100%;
     max-width: 720px;
-
-}
-
-.content--information-col-doctor-two {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content--information-col-doctor-two {
     /* background-image: url(assets/content--information.png); */
     background-image: url(assets/Group\ 112.png);
-    background-size: 710px auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
     max-width: 720px;
-}
+  }
+  
+  .information-col-doctor-doctor-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+    color: #ffff;
+  
+  }
 
 .content--payment {
     display: flex;
