@@ -904,7 +904,8 @@ body {
   }
   
   .content--information-col-patient-two {
-    background-color: #163D7E;
+    /* background-color: #163D7E; */
+    background-color: red;
     width: 100%;
     max-width: 720px;
     display: flex;
